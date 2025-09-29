@@ -38,7 +38,7 @@ function onButtonPressed(event) {
             tempStatus = " - Too Hot";
           } else if (tempFahrenheit < 70) {
             tempStatus = " - To Cold";
-          }
+          } else tempStatus = " - OK";
           showStatusPopup(`${tempCelsius.toFixed(1)}°C = ${tempFahrenheit.toFixed(1)}°F${tempStatus}`);
         } else {
           showStatusPopup('Temperature value is not a valid number');
