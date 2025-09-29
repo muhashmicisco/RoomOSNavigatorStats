@@ -1,8 +1,7 @@
-<b>Limitation of Liability: <br>
+Limitation of Liability: <br>
 You are fully responsible for your use of this script AND I am not liable for damages or losses arising from its use.<br>
-</b>
 <br>
-Real-time Room Analytics via Navigator Touch Panel<p><b>
+<b>Real-time Room Analytics via Navigator Touch Panel<p></b>
 This Macro allows the end user in the conference room to quickly get real-time stats from the Navigator's onboard sensors at any time. Note: The accompanying UI emelment must be deployed to the side panel as shown below:<br>
 <img width="316" height="588" alt="image" src="https://github.com/user-attachments/assets/c97c53d1-5b99-454d-b98e-d249e1c76795" /><br>
 <br>
