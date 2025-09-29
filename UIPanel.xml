@@ -1,0 +1,43 @@
+<Extensions>
+  <Version>1.11</Version>
+  <Panel>
+    <Order>12</Order>
+    <PanelId>panel_2</PanelId>
+    <Origin>local</Origin>
+    <Location>ControlPanel</Location>
+    <Icon>Hvac</Icon>
+    <Name>Room Analytics</Name>
+    <ActivityType>Custom</ActivityType>
+    <Page>
+      <Name>Room Analytics</Name>
+      <Row>
+        <Name>Row</Name>
+        <Widget>
+          <WidgetId>Temp01</WidgetId>
+          <Name>Ambient Temperature</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+      </Row>
+      <Row>
+        <Name>Row</Name>
+        <Widget>
+          <WidgetId>Hum01</WidgetId>
+          <Name>Relative Humidity</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+      </Row>
+      <Row>
+        <Name>Row</Name>
+        <Widget>
+          <WidgetId>TVOC01</WidgetId>
+          <Name>TVOC</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+      </Row>
+      <Options>hideRowNames=1</Options>
+    </Page>
+  </Panel>
+</Extensions>
