@@ -37,7 +37,7 @@ function onButtonPressed(event) {
           if (tempFahrenheit > 80) {
             tempStatus = " - Too Hot";
           } else if (tempFahrenheit < 70) {
-            tempStatus = " - To Cold";
+            tempStatus = " - Too Cold";
           } else tempStatus = " - OK";
           showStatusPopup(`${tempCelsius.toFixed(1)}°C = ${tempFahrenheit.toFixed(1)}°F${tempStatus}`);
         } else {
